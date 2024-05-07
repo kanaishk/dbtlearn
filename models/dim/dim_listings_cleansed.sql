@@ -1,6 +1,6 @@
 {{
 	config(
-		materialized = 'views'
+		materialized = 'view'
 	)
 }}
 with src_listings as (
@@ -21,4 +21,4 @@ select
 	created_at,
 	updated_at
 from 
-	src_listings;
+	src_listings
